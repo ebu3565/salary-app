@@ -90,7 +90,7 @@ function addRecordHandler() {
 
   addRecord(name, !salary);
 }
-
+//need to edit
 function addRecord(name, salary) {
   const newItem = getRecord(name, salary);
   const id = Math.ceil(Math.random() * 1000000000);
